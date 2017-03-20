@@ -13,6 +13,7 @@ look. It also removes the unnecessary background, cropping until the graph + ann
 
 SOURCE | RESULT
 ------ | ------
+Hantek6022.png | Hantek6022_RecolorAndCropToAnnotations.png
 <img src="ProfilesImg/Hantek6022.png" width="400"> | <img src="ProfilesImg/Hantek6022_RecolorAndCropToAnnotations.png" width="400">
 
 
@@ -22,6 +23,7 @@ Like _Hantek6022_Capture_RecolorAndCropToAnnotations_ but also removing the anno
 
 SOURCE | RESULT
 ------ | ------
+Hantek6022.png | Hantek6022_RecolorAndCropToGraph.png
 <img src="ProfilesImg/Hantek6022.png" width="400"> | <img src="ProfilesImg/Hantek6022_RecolorAndCropToGraph.png" width="400">
 
 
@@ -35,6 +37,7 @@ model
 
 SOURCE | RESULT
 ------ | ------
+HantekDso2090.png | HantekDso2090_RecolorAndCropToAnnotations.png
 <img src="ProfilesImg/HantekDso2090.png" width="400"> | <img src="ProfilesImg/HantekDso2090_RecolorAndCropToAnnotations.png" width="400">
 
 
@@ -44,6 +47,7 @@ Like _HantekDso2090_Capture_RecolorAndCropToAnnotations_ but also removing the a
 
 SOURCE | RESULT
 ------ | ------
+HantekDso2090.png | HantekDso2090_RecolorAndCropToGraph.png
 <img src="ProfilesImg/HantekDso2090.png" width="400"> | <img src="ProfilesImg/HantekDso2090_RecolorAndCropToGraph.png" width="400">
 
 
@@ -57,4 +61,5 @@ version (with white background)
 
 SOURCE | RESULT
 ------ | ------
+Putty.png | Putty_Recolor.png
 <img src="ProfilesImg/Putty.png" width="400"> | <img src="ProfilesImg/Putty_Recolor.png" width="400">

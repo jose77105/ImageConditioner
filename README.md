@@ -25,26 +25,27 @@ benefit from.
 
 ## MAIN FEATURES
 
-* *Customization*
+### Customization
 
 If you have a specific image customization which is not covered by the current software, you can
 easily add your own conversion function taking advantage of the functionalities offered by the C#
 language and the mini-framework provided by the tool.
 
-* *Reflection*
+### Reflection
 
 To simplify the addition of new functionality this tool relies on C# Reflection. This way, to add a
 new custom transformation you just need to add a new C# function to the project. Then, it will
 automatically appear in the GUI as a new available profile
 
-* *Running modes*
+### Running modes
 
 It supports three running modes:
-	* *Interactive GUI*: a dialog allows to easily configure the conversion and images involved  
-	* *Console-based*: operated through the command line. A console window notifies about the
-	progress of the conversion
-	* *Quiet-mode*: it silently executes the conversion without any interaction. Only the result
-	of the complete operation is returned (OK or NOK)
+
+* **Interactive GUI**: a dialog allows to easily configure the conversion and images involved  
+* **Console-based**: operated through the command line. A console window notifies about the
+progress of the conversion
+* **Quiet-mode**: it silently executes the conversion without any interaction. Only the result
+of the complete operation is returned (OK or NOK)
 
 
 ## GUI
@@ -90,9 +91,9 @@ The tool offers profiles for:
 These profiles are currently divided in three C# files (click on the links for detailed
 information): 
 
-* _ProfilesNative.cs_: [Native profiles](ProfilesNative.md)
-* _ProfilesApplications.cs_: [Application-based profiles](ProfilesApplications.md)
-* _ProfilesPrivate.cs_: [Private profiles](ProfilesPrivate.md)
+* _ProfilesNative.cs_: [Native profiles](ImageConditioner/ProfilesNative.md)
+* _ProfilesApplications.cs_: [Application-based profiles](ImageConditioner/ProfilesApplications.md)
+* _ProfilesPrivate.cs_: [Private profiles](ImageConditioner/ProfilesPrivate.md)
 
 To add a new profile just duplicate one of the existing functions within these files, change the
 function name and implement your code. It's quite intuitive
